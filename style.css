@@ -1,0 +1,341 @@
+html {
+    background-color: #01303F;
+    color: #d4f0fc;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x:hidden;
+}
+
+body {
+    width: 100%;
+}
+
+h1:not(#header):hover {
+    text-shadow: 0 0 5px #f40303,
+              0 0 25px #f40303,
+              0 0 50px #f40303,
+              0 0 100px #f40303;
+}
+
+h2 {
+    text-align: center;
+}
+
+.letter:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+.name:not(.footer) {
+    font-size: 70px;
+}
+.name:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+              0 0 25px #f40388,
+              0 0 50px #a003f4,
+              0 0 100px #2b03f4;
+}
+.high {
+    text-decoration: underline;
+}
+.high:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+              0 0 25px #f40303,
+              0 0 50px #f40303,
+              0 0 100px #f40303;
+}
+.hello {
+    font-size: 100px;
+}
+
+#skills {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+
+#header {
+    display: inline-block;
+    animation: slow 3s ease forwards;
+}
+
+#me {
+    float:right;
+    width:0;
+    animation: 2s appear ease forwards 1s;
+    margin-left: 10%;
+    margin-top:10%;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 120px 80px 40px 20px #0ff;
+}
+
+#me:hover {
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40388,
+                0 0 50px #a003f4,
+                0 0 100px #2b03f4;
+}
+
+.anim {
+    font-size: 1px;
+    animation: 
+        slow ease forwards 1s,
+        1s bounce ease forwards 1s;
+}
+
+@keyframes slow {
+    from {
+        text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+        font-size: 1px;
+    }
+    to {
+        font-size: 100px;
+    }
+}
+@keyframes bounce {
+    from {
+        font-size: 100px;
+    }
+    to {
+        font-size: 50px;
+    }
+}
+
+@keyframes appear {
+    from {
+        width: 0px;
+        transform: rotate(180deg);
+    }
+    to {
+        width: 300px;
+        border-radius: 50%;
+        margin-right: 5%;
+        transform: rotate(0deg);
+    }
+}
+a {
+    color: #d4f0fc;
+    text-decoration: none;
+    margin: 3%;
+}
+
+a:hover {
+    color: #02a9f7;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trailTracker {
+    border-radius: 100%;
+    width:100px;
+    top:30%;
+    left:calc(5% - 50px);
+}
+
+#trailTracker:hover {
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+
+.icons {
+    width: 30px;
+    position: absolute;
+    left: calc(5% - 15px);
+    position: fixed;
+}
+#logo {
+    width:70px;
+    left: calc(5% - 30px)
+}
+
+#github {
+    top: 50%;
+}
+#github:hover {
+    top: 49%;
+    padding-top: 10px;
+}
+#linkedin {
+    top: 55%;
+}
+#linkedin:hover {
+    top: 54%;
+    padding-top: 10px;
+}
+#portfolio {
+    top: 60%;
+}
+#portfolio:hover {
+    top: 59%;
+    padding-top: 10px;
+}
+#instagram {
+    top: 65%;
+}
+#instagram:hover {
+    top:64%;
+    padding-top: 10px;
+}
+#leetcode {
+    top: 70%;
+}
+#leetcode:hover {
+    top: 69%;
+    padding-top: 10px;
+}
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: rgb(51, 255, 255);
+    border: 0px solid black;
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+    left:500px;
+    right:500px;
+    pointer-events: none;
+}
+
+#experiences {
+    width:100%;
+    height:500px;
+    display:flex;
+    justify-content: center;
+}
+
+#lifehikes {
+    width:40%;
+    height:100%;
+    margin-right: 10%;
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+#russ {
+    width:40%;
+    height:100%;
+    margin-left: 10%;
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+
+#lifehikes:hover {
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40388,
+                0 0 50px #a003f4,
+                0 0 100px #2b03f4;
+}
+
+#russ:hover {
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40388,
+                0 0 50px #a003f4,
+                0 0 100px #2b03f4;
+}
+
+#title {
+    font-size: 1rem;
+}
+
+#samples {
+    width: 100%;
+    height: 600px;
+}
+
+.sample {
+    text-align:center;
+    position:relative;
+    width: 25%;
+    height: 100%;
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+.sample:hover {
+    text-shadow: 0 0 5px #f40303,
+              0 0 25px #f40388,
+              0 0 50px #a003f4,
+              0 0 100px #2b03f4;
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40388,
+                0 0 50px #a003f4,
+                0 0 100px #2b03f4;
+}
+.row {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:50%;
+}
+
+#contact {
+    text-align: center;
+    margin-left:25%;
+    width: 50%;
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #00b3ff;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+
+#button1 {
+    margin-left:20%;
+    font-size: 20px;
+    width:100px;
+    height: 45px;
+}
+
+#button2 {
+    margin-top:10%;
+    font-size: 20px;
+    width:200px;
+    height: 90px;
+    padding: 10px 16px;
+}
+
+#footer {
+    border-top:1px solid #02a9f7;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-right:20px;
+}
