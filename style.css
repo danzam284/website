@@ -167,11 +167,9 @@ nav {
 }
 
 #trailTracker:hover {
-    box-shadow:
-    0 0 1px #03e9f4,
-    0 0 5px #03e9f4,
-    0 0 10px #03e9f4,
-    0 0 20px #03e9f4;
+    left:calc(5% - 40px);
+    width:80px;
+    top:calc(30% + 5px)
 }
 
 .icons {
