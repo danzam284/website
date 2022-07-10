@@ -8,6 +8,8 @@ let linkedin = document.getElementById("linkedin");
 let portfolio = document.getElementById("portfolio");
 let instagram = document.getElementById("instagram");
 let leetcode = document.getElementById("leetcode");
+let sm = document.getElementById("sm");
+var moon = true;
 
 logo.onmouseover = function() {
     logo.src = "images/logo.png";
@@ -80,4 +82,17 @@ function huskify() {
     let index = Math.floor(Math.random() * 10) + 1;
     let audio = new Audio('sounds/husky' + index + '.mp3');
     audio.play();
+}
+
+function moonSwitch() {
+    moon = !moon;
+    if (moon) {
+        sm.src = "images/moon.svg";
+        document.getElementById("html").style.animation = "stom 3s";
+        document.getElementById("html").style.background = "#01303F";
+    } else {
+        sm.src = "images/sun.svg"
+        document.getElementById("html").style.animation = "mtos 3s";
+        document.getElementById("html").style.background = "#e7b100";
+    }
 }
