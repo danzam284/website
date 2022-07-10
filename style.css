@@ -92,6 +92,24 @@ h2 {
         1s bounce ease forwards 1s;
 }
 
+@keyframes mtos {
+    from {
+        background-color: #01303F;
+    }
+    to {
+        background-color: #e7b100;
+    }
+}
+
+@keyframes stom {
+    from {
+        background-color: #e7b100;
+    }
+    to {
+        background-color: #01303F;
+    }
+}
+
 @keyframes slow {
     from {
         text-shadow: 0 0 5px #03e9f4,
@@ -149,7 +167,8 @@ nav {
 }
 
 #trailTracker:hover {
-    box-shadow:0 0 1px #03e9f4,
+    box-shadow:
+    0 0 1px #03e9f4,
     0 0 5px #03e9f4,
     0 0 10px #03e9f4,
     0 0 20px #03e9f4;
@@ -164,6 +183,16 @@ nav {
 #logo {
     width:70px;
     left: calc(5% - 30px)
+}
+
+#sm {
+    width: 35px;
+    top: 20%;
+}
+#sm:hover {
+    border-radius: 50%;
+    box-shadow:
+    0 0 20px #03e9f4;
 }
 
 #github {
