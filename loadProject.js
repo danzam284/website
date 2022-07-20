@@ -81,6 +81,7 @@ async function load(i) {
 }
 
 function reset() {
+    vidParent.pause();
     opened = false;
     title.innerHTML = "";
     link.href = "";
