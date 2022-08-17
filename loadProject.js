@@ -33,7 +33,7 @@ const videos = [
 
 const links = [
     "https://codesandbox.io/s/admiring-frost-6zrj8y",
-    "http://ecomaps.tech/",
+    "http://greenmap.tech/",
     "https://github.com/danzam284/digit-recognition",
     "https://danzam284.github.io/sort/",
     "http://makemelaugh.tech/",
