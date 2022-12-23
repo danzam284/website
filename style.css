@@ -200,7 +200,7 @@ a:hover {
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 #x:before {
     transform: rotate(45deg);
@@ -366,28 +366,44 @@ nav {
 
 #experiences {
     width:100%;
-    height:500px;
+    height:700px;
     display:flex;
     justify-content: center;
 }
 
+#prudential {
+    width:100%;
+    height: 700px;
+    margin-right: 2%;
+    box-shadow:0 0 1px #03e9f4,
+    0 0 5px #03e9f4,
+    0 0 10px #03e9f4,
+    0 0 20px #03e9f4;
+}
+
 #lifehikes {
-    width:40%;
-    height:100%;
-    margin-right: 10%;
+    width:100%;
+    height: 700px;
     box-shadow:0 0 1px #03e9f4,
     0 0 5px #03e9f4,
     0 0 10px #03e9f4,
     0 0 20px #03e9f4;
 }
 #russ {
-    width:40%;
-    height:100%;
-    margin-left: 10%;
+    width:100%;
+    margin-left: 2%;
+    height: 700px;
     box-shadow:0 0 1px #03e9f4,
     0 0 5px #03e9f4,
     0 0 10px #03e9f4,
     0 0 20px #03e9f4;
+}
+
+#prudential:hover {
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40388,
+                0 0 50px #a003f4,
+                0 0 100px #2b03f4;
 }
 
 #lifehikes:hover {
