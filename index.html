@@ -25,7 +25,7 @@
         <a href="#experience">Experience</a>
         <a href="#sam">Projects</a>
         <a href="#contact">Contact</a>
-        <button onclick="window.open('Resume.pdf', '_blank')" class="button" id="button1">Resume</button>
+        <button onclick="window.open('resume.pdf', '_blank')" class="button" id="button1">Resume</button>
     </nav>
     <img class="icons" id="github" src="images/github.svg">
     <img class="icons" id="linkedin" src="images/linkedin.svg">
@@ -129,6 +129,12 @@
         <h1 data-aos="fade-up">My Projects <span style="font-size:10px;">(click for more info)</span></h1>
         <div id="samples" data-aos="fade-up">
             <div class="row">
+                <div class="sample" onclick="load(11);">
+                    <h2>Blackjack</h2>
+                    <img width="98%;" src="images/blackjack.png" style="margin-left:1%">
+                    <span style="text-align:center">Databases :)</span>
+                    <img onmouseover="src='images/github-hover.svg'" onmouseout="src='images/github.svg'"; onclick="window.open('https://github.com/danzam284/blackjack', '_blank')" style="position:absolute; bottom:3%;left:3%;" src="images/github.svg" width="10%">
+                </div>
                 <div class="sample" onclick="load(10);">
                     <h2>Javascript Pokemon</h2>
                     <img width="98%;" src="images/pokemonJavascript.png" style="margin-left:1%">
@@ -147,14 +153,14 @@
                     <span style="text-align:center">Hackathon Section Winner</span>
                     <img onmouseover="src='images/github-hover.svg'" onmouseout="src='images/github.svg'"; onclick="window.open('https://github.com/danzam284/EcoMaps', '_blank')" style="position:absolute; bottom:3%;left:3%;" src="images/github.svg" width="10%">
                 </div>
+            </div>
+            <div class="row">
                 <div class="sample" onclick="load(2);">
                     <h2>Digit Recognition</h2>
                     <img width="93%;" src="images/digit.png" style="margin-left:3.5%">
                     <span style="text-align:center">First use of Machine Learning</span>
                     <img onmouseover="src='images/github-hover.svg'" onmouseout="src='images/github.svg'"; onclick="window.open('https://github.com/danzam284/digit-recognition', '_blank')" style="position:absolute; bottom:3%;left:3%;" src="images/github.svg" width="10%">
                 </div>
-            </div>
-            <div class="row">
                 <div class="sample" onclick="load(3);">
                     <h2>Sorting Visualizer</h2>
                     <img width="98%;" src="images/sort.png" style="margin-left:1%">
@@ -173,14 +179,14 @@
                     <span style="text-align:center">Inspired by Clément Mihailescu</span>
                     <img onmouseover="src='images/github-hover.svg'" onmouseout="src='images/github.svg'"; onclick="window.open('https://github.com/danzam284/path', '_blank')" style="position:absolute; bottom:3%;left:3%;" src="images/github.svg" width="10%">
                 </div>
+            </div>
+            <div class="row">
                 <div class="sample" onclick="load(6);">
                     <h2>Wordle Clone</h2>
                     <img width="98%;" src="images/wordle.png" style="margin-left:1%">
                     <span style="text-align:center">Inspired by Wordle (duh)</span>
                     <img onmouseover="src='images/github-hover.svg'" onmouseout="src='images/github.svg'"; onclick="window.open('https://github.com/danzam284/wordle', '_blank')" style="position:absolute; bottom:3%;left:3%;" src="images/github.svg" width="10%">
                 </div>
-            </div>
-            <div class="row">
                 <div class="sample" onclick="load(7);">
                     <h2>Geography Quiz</h2>
                     <img width="98%;" src="images/map.png" style="margin-left:1%">
