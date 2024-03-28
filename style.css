@@ -389,7 +389,7 @@ nav {
     0 0 10px #03e9f4,
     0 0 20px #03e9f4;
 }
-#russ {
+#ebay {
     width:100%;
     margin-left: 2%;
     height: 700px;
@@ -413,7 +413,7 @@ nav {
                 0 0 100px #2b03f4;
 }
 
-#russ:hover {
+#ebay:hover {
     box-shadow: 0 0 5px #f40303,
                 0 0 25px #f40388,
                 0 0 50px #a003f4,
